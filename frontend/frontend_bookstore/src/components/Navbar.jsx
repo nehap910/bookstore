@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-10 px-4">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -61,7 +61,11 @@ function Navbar() {
 
             <div className="hidden md:block">
               <label className="px-3 py-2 border rounded-md flex items-center gap-2">
-                <input type="text" className="grow outline-none" placeholder="Search" />
+                <input
+                  type="text"
+                  className="grow outline-none"
+                  placeholder="Search"
+                />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
@@ -78,7 +82,7 @@ function Navbar() {
             </div>
 
             <label className="swap swap-rotate">
-                <input
+              <input
                 type="checkbox"
                 className="theme-controller"
                 value="synthwave"
@@ -86,7 +90,7 @@ function Navbar() {
 
               {/* sun icon */}
               <svg
-                className="swap-off h-10 w-8 fill-current"
+                className="swap-off h-7 w-7 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -95,7 +99,7 @@ function Navbar() {
 
               {/* moon icon */}
               <svg
-                className="swap-on h-10 w-8 fill-current"
+                className="swap-on h-7 w-7 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
